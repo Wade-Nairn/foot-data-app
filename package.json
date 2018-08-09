@@ -1,0 +1,22 @@
+{
+  "name": "footyapp",
+  "version": "1.0.0",
+  "description": "Footy data app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Wade Nairn",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.1",
+    "nodemon": "^1.18.2"
+  }
+}
